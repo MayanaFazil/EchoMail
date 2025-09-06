@@ -2,6 +2,7 @@
 AI-powered communication assistant that fetches, analyzes, and organizes your emails intelligently. It classifies messages, extracts key insights, and generates smart responses for faster communication.
 
 # Project Structure
+'''
 ai-comm-assistant/
 │
 ├── backend/
@@ -25,3 +26,5 @@ ai-comm-assistant/
 │   └── package.json            # Frontend dependencies
 │
 ├── README.md                   # Project overview & setup instructions
+
+'''
