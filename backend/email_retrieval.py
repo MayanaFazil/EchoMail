@@ -11,8 +11,8 @@ from nlp_utils import (
 
 # Config
 IMAP_SERVER = "imap.gmail.com"
-EMAIL_ACCOUNT = "mmfazilkhan786@gmail.com"
-PASSWORD = "ohai swqr htum ootl"
+EMAIL_ACCOUNT = "" # your mail-id
+PASSWORD = "" #your app passowrd
 KEYWORDS = ["Support", "Query", "Request", "Help"]
 
 def connect_imap():
@@ -92,3 +92,4 @@ if __name__ == "__main__":
               f"Requirements: {e['requirements']}\n"
               f"Positives: {e['positive_words']} | Negatives: {e['negative_words']}\n"
               f"Metadata: {e['metadata']}\n{'-'*40}")
+
